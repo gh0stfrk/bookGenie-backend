@@ -1,0 +1,65 @@
+{
+    "books": [
+      {
+        "book_name": "The Agony and the Ecstasy",
+        "author_name": "Irving Stone",
+        "year": "1961",
+        "reason": "Captures the life of Michelangelo, providing insight into artistry and the creative process during the Renaissance."
+      },
+      {
+        "book_name": "The Name of the Rose",
+        "author_name": "Umberto Eco",
+        "year": "1980",
+        "reason": "Blends historical mystery and intellectual exploration, offering a compelling narrative set in a medieval monastery."
+      },
+      {
+        "book_name": "The Picture of Dorian Gray",
+        "author_name": "Oscar Wilde",
+        "year": "1890",
+        "reason": "A classic that explores the aestheticism movement, delving into the consequences of a life dedicated to art and beauty."
+      },
+      {
+        "book_name": "The Creative's Guide to Starting a Business",
+        "author_name": "Harriet Kelsall",
+        "year": "2018",
+        "reason": "Practical advice for artists interested in turning their passion into a business, balancing creativity and entrepreneurship."
+      },
+      {
+        "book_name": "The Art Spirit",
+        "author_name": "Robert Henri",
+        "year": "1923",
+        "reason": "A timeless guide on the philosophy of art, encouraging artists to embrace their individuality and creative spirit."
+      },
+      {
+        "book_name": "The Goldfinch",
+        "author_name": "Donna Tartt",
+        "year": "2013",
+        "reason": "Blends art, mystery, and coming-of-age, following the life of a young man connected to a stolen Dutch painting."
+      },
+      {
+        "book_name": "The Artist's Way",
+        "author_name": "Julia Cameron",
+        "year": "1992",
+        "reason": "A transformative guide to unlocking creativity, featuring exercises and insights for artists seeking inspiration."
+      },
+      {
+        "book_name": "Code Complete",
+        "author_name": "Steve McConnell",
+        "year": "1993",
+        "reason": "A comprehensive guide for programmers, covering best practices and techniques for writing high-quality code."
+      },
+      {
+        "book_name": "The Pragmatic Programmer",
+        "author_name": "Andrew Hunt, David Thomas",
+        "year": "1999",
+        "reason": "Offers practical advice and tips for programmers, emphasizing efficiency and best coding practices."
+      },
+      {
+        "book_name": "Art & Fear: Observations on the Perils (and Rewards) of Artmaking",
+        "author_name": "David Bayles, Ted Orland",
+        "year": "1993",
+        "reason": "Explores the challenges and fears faced by artists, providing encouragement and insights into the creative process."
+      }
+    ]
+  }
+  
