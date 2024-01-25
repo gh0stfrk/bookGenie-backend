@@ -1,13 +1,25 @@
-from fastapi import FastAPI, Request
-from .routers import books, auth
-from fastapi.middleware.cors import CORSMiddleware
-
+import os
 import logging
+from main import root_path
+from .routers import books, auth
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from logging.handlers import TimedRotatingFileHandler
 
-logging.basicConfig(
-    level=logging.DEBUG
-)
+root_app_path = os.path.dirname(os.path.abspath(__file__))
 
+log_dir = os.path.join(root_path, "logs")
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+
+log_file = os.path.join(log_dir, "app.log")
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+handler = TimedRotatingFileHandler(log_file, when='midnight', interval=1, backupCount=7)
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 
 origins = [
@@ -33,6 +45,9 @@ app.add_middleware(
 async def modify_request(request: Request, call_next):
     ip_addr = request.client.host
     print(request.url.path)
+    logger.info(f"Request received from {ip_addr}")
+    if request.body():
+        logger.info(f"Request body: {request.body}")
     return await call_next(request)
 
 
