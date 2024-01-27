@@ -1,3 +1,4 @@
+from fastapi import Request
 from .models import Book
 
 
@@ -17,3 +18,9 @@ def restructure_books(books_dict : dict):
     
     return book_obj
 
+
+def get_client_ip(request: Request):
+    client_ip = request.headers.get("X-Forwarded-For")
+    if client_ip is None:
+        client_ip = request.client.host
+    return client_ip
