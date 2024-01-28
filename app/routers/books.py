@@ -8,8 +8,11 @@ from ..models import UserQuery
 from ..get_books import getBooks    
 from ..utils import get_client_ip, restructure_books
 from ..write_to_sheets import append_values
+from ..log_manager import CreateLogger, Modules
 import json
 
+logger_ = CreateLogger(Modules.books)
+logger = logger_.create_logger()
 
 router = APIRouter(
     prefix="/api/v1"
@@ -17,7 +20,7 @@ router = APIRouter(
 
 async def check_rate_limit(request: Request, session: SessionLocal = Depends(get_db)):
     ip_address = get_client_ip(request)  # Replace with your IP retrieval logic
-
+    logger.log(logging.INFO, f"IP address: {ip_address}")
 
     # Check for authentication cookie
     auth_cookie = request.cookies.get("auth_cookie")  # Replace with your actual cookie name

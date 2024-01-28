@@ -1,36 +1,9 @@
-2024-01-27 20:01:43 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:01:43 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f8ce29cd3d0>>
-2024-01-27 20:03:05 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:03:05 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f8ce28395d0>>
-2024-01-27 20:03:10 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:03:10 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f8ce2839910>>
-2024-01-27 20:03:12 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:03:12 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f8ce2839c90>>
-2024-01-27 20:05:36 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:05:36 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7febce0c8450>>
-2024-01-27 20:05:38 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:05:38 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7febce0c8b90>>
-2024-01-27 20:05:55 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:05:55 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7febcdf32dd0>>
-2024-01-27 20:07:01 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:07:01 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7febcd6a81d0>>
-2024-01-27 20:11:22 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:11:22 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f93eeaa5350>>
-2024-01-27 20:12:59 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:12:59 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f00686ae090>>
-2024-01-27 20:13:41 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:13:41 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7ffa376d2450>>
-2024-01-27 20:14:21 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:14:21 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f9d381da590>>
-2024-01-27 20:15:10 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:15:10 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7fc44eebf0d0>>
-2024-01-27 20:15:36 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:15:36 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f7ca28d6e50>>
-2024-01-27 20:16:12 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:16:12 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f995dfd2a50>>
-2024-01-27 20:17:19 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:17:19 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f995e9bb090>>
-2024-01-27 20:19:50 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:19:50 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7ff82d7dea10>>
-2024-01-27 20:21:36 - app.main - INFO - Request received from 127.0.0.1
-2024-01-27 20:21:36 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7fc7c83be710>>
+2024-01-29 00:19:41 - app.main - INFO - Scheduler started
+2024-01-29 00:21:19 - app.main - INFO - Request received from 127.0.0.1
+2024-01-29 00:21:19 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f322929dd50>>
+2024-01-29 00:21:50 - app.main - INFO - Request received from 127.0.0.1
+2024-01-29 00:21:50 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f32294cf090>>
+2024-01-29 00:21:51 - app.main - INFO - Request received from 127.0.0.1
+2024-01-29 00:21:51 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f32292ff150>>
+2024-01-29 00:21:58 - app.main - INFO - Request received from 127.0.0.1
+2024-01-29 00:21:58 - app.main - INFO - Request body: <bound method Request.body of <starlette.middleware.base._CachedRequest object at 0x7f32292fee10>>

@@ -1,9 +1,3 @@
-import datetime
-import os
-import logging
-
-import jwt
-
 from app.database import IPLog, SessionLocal, get_db
 from app.utils import get_client_ip
 from main import root_path
@@ -11,22 +5,12 @@ from .routers import books, auth
 from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from logging.handlers import TimedRotatingFileHandler
+from .scheduler import scheduler
+from .log_manager import CreateLogger, Modules
 
-root_app_path = os.path.dirname(os.path.abspath(__file__))
 
-log_dir = os.path.join(root_path, "logs")
-if not os.path.exists(log_dir):
-    os.makedirs(log_dir)
-
-log_file = os.path.join(log_dir, "app.log")
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-handler = TimedRotatingFileHandler(log_file, when='midnight', interval=1, backupCount=7)
-handler.setFormatter(formatter)
-logger.addHandler(handler)
-
+logger_ = CreateLogger(Modules.main)
+logger = logger_.create_logger()
 
 origins = [
     "http://localhost",
@@ -47,6 +31,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# TODO: Implement logic to flush the ip_logs database on 
+# every restart, cause the scheduler restarts on with the
+# application server.
+
+scheduler.start()
+logger.info("Scheduler started")
+
 @app.middleware("http")
 async def modify_request(request: Request, call_next):
     ip_addr = request.client.host
@@ -54,8 +45,6 @@ async def modify_request(request: Request, call_next):
     if request.body():
         logger.info(f"Request body: {request.body}")
     return await call_next(request)
-
-
 
 
 @app.get("/", tags=["informational"])
