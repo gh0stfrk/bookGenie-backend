@@ -1,5 +1,6 @@
 import datetime
 import logging
+import json
 from fastapi import APIRouter, Depends, HTTPException, Request
 import jwt
 from app.database import IPLog, SessionLocal, get_db
@@ -8,8 +9,9 @@ from ..models import UserQuery
 from ..get_books import getBooks    
 from ..utils import get_client_ip, restructure_books
 from ..write_to_sheets import append_values
+from ..firebase_stuff import verify_token
 from ..log_manager import CreateLogger, Modules
-import json
+
 
 logger_ = CreateLogger(Modules.books)
 logger = logger_.create_logger()
@@ -27,11 +29,19 @@ async def check_rate_limit(request: Request, session: SessionLocal = Depends(get
     if auth_cookie:
         # Validate the JWT token (replace with your token validation logic)
         try:
-            payload = jwt.decode(auth_cookie, "your_secret_key", algorithms=["HS256"])
+            # payload = jwt.decode(auth_cookie, "your_secret_key", algorithms=["HS256"])
             # If token is valid, skip rate limiting
+            token = verify_token(auth_cookie)
+            logger.info(f"Token: {token}")
             return
         except jwt.exceptions.DecodeError:
             pass  # Handle invalid token gracefully (e.g., log or raise an error)
+    
+    headers = request.headers
+    if headers.__contains__("Firebase-Key"):
+        logger.log(logging.INFO, f"Firebase-Key: {headers['Firebase-Key']}")
+        fkey = headers["Firebase-Key"]
+        verify_token(fkey)
 
     today = datetime.date.today()
 
@@ -57,7 +67,10 @@ async def check_rate_limit(request: Request, session: SessionLocal = Depends(get
     session.commit()
 
 
-@router.post("/get_books", tags=["books"])
+def check_token_status(token):
+    pass
+
+@router.post("/books", tags=["books"])
 async def find_books(
     query: UserQuery,
     request: Request,  

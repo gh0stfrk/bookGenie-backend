@@ -12,6 +12,7 @@ class Modules(Enum):
     database = "database"
     auth = "auth"
     books = "books"
+    firebase = "firebase"
 
 
 class CreateLogger():

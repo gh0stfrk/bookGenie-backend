@@ -20,6 +20,8 @@ def restructure_books(books_dict : dict):
 
 
 def get_client_ip(request: Request):
+    """Get client ip address from request headers.
+    """
     client_ip = request.headers.get("X-Forwarded-For")
     if client_ip is None:
         client_ip = request.client.host

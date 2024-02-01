@@ -1,10 +1,6 @@
-from app.database import IPLog, SessionLocal, get_db
-from app.utils import get_client_ip
-from main import root_path
 from .routers import books, auth
-from fastapi import Depends, FastAPI, HTTPException, Request
+from fastapi import Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from logging.handlers import TimedRotatingFileHandler
 from .scheduler import scheduler
 from .log_manager import CreateLogger, Modules
 
@@ -44,6 +40,7 @@ async def modify_request(request: Request, call_next):
     logger.info(f"Request received from {ip_addr}")
     if request.body():
         logger.info(f"Request body: {request.body}")
+        
     return await call_next(request)
 
 
