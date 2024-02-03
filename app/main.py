@@ -1,9 +1,9 @@
 from .routers import books, auth
-from fastapi import Depends, FastAPI, Request
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from .scheduler import scheduler
 from .log_manager import CreateLogger, Modules
-
+from .utils import clear_ip_logs
 
 logger_ = CreateLogger(Modules.main)
 logger = logger_.create_logger()
@@ -27,10 +27,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# TODO: Implement logic to flush the ip_logs database on 
-# every restart, cause the scheduler restarts on with the
-# application server.
-
+if clear_ip_logs():
+    logger.info("IP logs cleared")
+    
 scheduler.start()
 logger.info("Scheduler started")
 
@@ -38,9 +37,8 @@ logger.info("Scheduler started")
 async def modify_request(request: Request, call_next):
     ip_addr = request.client.host
     logger.info(f"Request received from {ip_addr}")
-    if request.body():
-        logger.info(f"Request body: {request.body}")
-        
+    if await request.body():
+        logger.info(f"Request body: {await request.json()}")
     return await call_next(request)
 
 

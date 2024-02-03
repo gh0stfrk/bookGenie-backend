@@ -1,4 +1,5 @@
 from fastapi import Request
+from app.database import IPLog, SessionLocal
 from .models import Book
 
 
@@ -17,7 +18,7 @@ def restructure_books(books_dict : dict):
         ))
     
     return book_obj
-
+    
 
 def get_client_ip(request: Request):
     """Get client ip address from request headers.
@@ -26,3 +27,17 @@ def get_client_ip(request: Request):
     if client_ip is None:
         client_ip = request.client.host
     return client_ip
+
+
+def clear_ip_logs():
+    """Clears ip_logs in the database
+    """
+    try:
+        session = SessionLocal()
+        session.query(IPLog).delete()
+        session.commit()
+        session.close()
+        return True
+    except Exception as e:
+        print(e)
+        return False

@@ -6,6 +6,12 @@ Python 3.11.7
 - Rate limitting 
 - Allow more queries after signup with google
 
+
+## More Features 
+- Integration to Google books 
+- Getting book reviews from goodreads
+- Adding affiliate links to kindle(ebook), amazon (hardcover), ebooks.com(ebook)
+
 # Endpoints
 
 getbookRecommendations() POST

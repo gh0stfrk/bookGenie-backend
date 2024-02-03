@@ -1,7 +1,12 @@
 venv/
 .env
-credentials.json
+
+# Google Service Account Config's 
+# for write_to_sheets
 creds.json
+# for firebase_stuff
+firebase-admin.json
+
 # cache
 
 __pycache__/
