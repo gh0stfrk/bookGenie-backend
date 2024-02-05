@@ -37,6 +37,7 @@ async def check_rate_limit(request: Request, session: SessionLocal = Depends(get
         except jwt.exceptions.DecodeError:
             pass  # Handle invalid token gracefully (e.g., log or raise an error)
     
+    # Check for auth headers
     headers = request.headers
     if headers.__contains__("Firebase-Key"):
         logger.log(logging.INFO, f"Firebase-Key: {headers['Firebase-Key']}")
@@ -67,8 +68,6 @@ async def check_rate_limit(request: Request, session: SessionLocal = Depends(get
     session.commit()
 
 
-def check_token_status(token):
-    pass
 
 @router.post("/books", tags=["books"])
 async def find_books(
@@ -94,11 +93,17 @@ async def find_books(
                 ])
             except Exception as e:
                 # Handle logging errors gracefully
-                print(f"Error during logging: {e}")
+                logger.error(f"Error during logging: {e}")
 
         return restructued_books
 
     except Exception as e:
-        # Handle other endpoint-related errors
-        raise HTTPException(status_code=500, detail="Internal server error")
+        raise HTTPException(status_code=500, detail=f"Internal server error : {e}")
 
+@router.post("/favourite", tags=["books"])
+async def favourite_book():
+    """
+    Check for the auth token in the header if not return 401 else add the book to firestore
+    with book details from google book api.
+    """
+    return {"message": "Favourite book endpoint"}
