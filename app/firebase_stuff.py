@@ -5,7 +5,7 @@ from firebase_admin import auth
 from firebase_admin import credentials
 from .log_manager import CreateLogger, Modules
 
-cred_file = os.path.join(root_app_path, "firebase-admin.json")
+cred_file = os.path.join(root_app_path, "creds2.json")
 creds = credentials.Certificate(cred_file)
 
 default_app = firebase_admin.initialize_app(credential=creds)

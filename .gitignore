@@ -6,6 +6,8 @@ venv/
 creds.json
 # for firebase_stuff
 firebase-admin.json
+creds1.json
+creds2.json
 
 # cache
 

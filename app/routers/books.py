@@ -21,44 +21,26 @@ router = APIRouter(
 )
 
 async def check_rate_limit(request: Request, session: SessionLocal = Depends(get_db)):
-    ip_address = get_client_ip(request)  # Replace with your IP retrieval logic
+    ip_address = get_client_ip(request) 
     logger.log(logging.INFO, f"IP address: {ip_address}")
 
-    # Check for authentication cookie
-    auth_cookie = request.cookies.get("auth_cookie")  # Replace with your actual cookie name
-    if auth_cookie:
-        # Validate the JWT token (replace with your token validation logic)
-        try:
-            # payload = jwt.decode(auth_cookie, "your_secret_key", algorithms=["HS256"])
-            # If token is valid, skip rate limiting
-            token = verify_token(auth_cookie)
-            logger.info(f"Token: {token}")
-            return
-        except jwt.exceptions.DecodeError:
-            pass  # Handle invalid token gracefully (e.g., log or raise an error)
-    
-    # Check for auth headers
     headers = request.headers
-    if headers.__contains__("Firebase-Key"):
-        logger.log(logging.INFO, f"Firebase-Key: {headers['Firebase-Key']}")
-        fkey = headers["Firebase-Key"]
+    if headers.__contains__("IdToken"):
+        logger.log(logging.INFO, f"IdToken: {headers['IdToken']}")
+        fkey = headers["IdToken"]
         verify_token(fkey)
 
-    today = datetime.date.today()
-
+        return
+    
     ip_log = (
         session.query(IPLog)
         .filter_by(ip_address=ip_address)
         .first()
     )
 
-    logging.error(f"ip_log value {ip_log}")
-
     if ip_log and ip_log.request_count >= 3:
         raise HTTPException(status_code=429, detail="Rate limit exceeded")
     
-    logging.error(f"IP log updated: {ip_log}")  
-
     if not ip_log:
         ip_log = IPLog(ip_address=ip_address, request_count=0)
         session.add(ip_log)
@@ -92,7 +74,6 @@ async def find_books(
                     ]
                 ])
             except Exception as e:
-                # Handle logging errors gracefully
                 logger.error(f"Error during logging: {e}")
 
         return restructued_books

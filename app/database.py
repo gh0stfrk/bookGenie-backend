@@ -4,8 +4,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
-
-# Database connection and model setup
 engine = create_engine("sqlite:///ip_logs.db")
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
@@ -19,9 +17,9 @@ class IPLog(Base):
     request_count = Column(Integer, default=0)
     date = Column(DateTime, default=datetime.datetime.utcnow)
 
-Base.metadata.create_all(engine)  # Create the table if it doesn't exist
+Base.metadata.create_all(engine)  
 
-# Dependency for database access
+
 def get_db():
     db = SessionLocal()
     try:

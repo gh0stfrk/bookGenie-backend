@@ -1,0 +1,33 @@
+2024-02-09 10:36:31 - main - INFO - IP logs cleared
+2024-02-09 10:36:31 - main - INFO - Scheduler started
+2024-02-09 11:10:43 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:10:43 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:10:43 - main - INFO - Request body: {'query': 'Show me books that tells a story about create a software product'}
+2024-02-09 11:17:33 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:17:33 - main - INFO - Request body: {'query': 'Show me books related to ancient wars '}
+2024-02-09 11:18:19 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:18:19 - main - INFO - Request body: {'query': 'Show me books with superman in it'}
+2024-02-09 11:28:35 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:28:35 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:28:35 - main - INFO - Request body: {'query': 'Suggest me books with modern devices and gadgets\n'}
+2024-02-09 11:29:28 - main - INFO - IP logs cleared
+2024-02-09 11:29:28 - main - INFO - Scheduler started
+2024-02-09 11:29:44 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:29:44 - main - INFO - Request body: {'query': 'I like flowers '}
+2024-02-09 11:29:58 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:29:58 - main - INFO - Request body: {'query': 'I like flowers '}
+2024-02-09 11:31:23 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:31:23 - main - INFO - Request body: {'query': 'Looking for reading a book that is easy to read for new readers '}
+2024-02-09 11:42:51 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:42:51 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:42:51 - main - INFO - Request body: {'query': 'Looking for reading a book that is easy to read for new readers'}
+2024-02-09 11:44:48 - main - INFO - IP logs cleared
+2024-02-09 11:44:48 - main - INFO - Scheduler started
+2024-02-09 11:45:28 - main - INFO - IP logs cleared
+2024-02-09 11:45:28 - main - INFO - Scheduler started
+2024-02-09 11:46:02 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:46:02 - main - INFO - Request body: {'query': 'books for new programmers '}
+2024-02-09 11:46:37 - main - INFO - IP logs cleared
+2024-02-09 11:46:37 - main - INFO - Scheduler started
+2024-02-09 11:46:49 - main - INFO - Request received from 127.0.0.1
+2024-02-09 11:46:49 - main - INFO - Request body: {'query': 'I like to read more on modern history'}
