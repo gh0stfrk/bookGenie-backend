@@ -1,10 +1,42 @@
-2024-02-10 13:13:45 - firebase - INFO - Firebase stuff loaded
-2024-02-10 13:14:42 - firebase - ERROR - Firebase ID token has incorrect "aud" (audience) claim. Expected "bookgenie-7e6e7" but got "376059395842-psls9b758so89fpderlo6gssec5husli.apps.googleusercontent.com". Make sure the ID token comes from the same Firebase project as the service account used to authenticate this SDK. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve ID token.
-2024-02-10 13:15:23 - firebase - ERROR - Firebase ID token has incorrect "aud" (audience) claim. Expected "bookgenie-7e6e7" but got "376059395842-psls9b758so89fpderlo6gssec5husli.apps.googleusercontent.com". Make sure the ID token comes from the same Firebase project as the service account used to authenticate this SDK. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve ID token.
-2024-02-10 14:02:56 - firebase - INFO - Firebase stuff loaded
-2024-02-10 14:06:17 - firebase - ERROR - Firebase ID token has incorrect "aud" (audience) claim. Expected "bookgenie-7e6e7" but got "376059395842-psls9b758so89fpderlo6gssec5husli.apps.googleusercontent.com". Make sure the ID token comes from the same Firebase project as the service account used to authenticate this SDK. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve ID token.
-2024-02-10 14:24:13 - firebase - INFO - Firebase stuff loaded
-2024-02-10 14:24:33 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
-2024-02-10 14:24:33 - firebase - INFO - Username: Salman Sayyed
-2024-02-10 14:24:33 - firebase - INFO - Email: salmansyyd12@gmail.com
-2024-02-10 14:24:33 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1707555065, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1707555066, 'exp': 1707558666, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-02-11 00:00:29 - firebase - INFO - Firebase stuff loaded
+2024-02-11 00:00:59 - firebase - ERROR - Token expired, 1707568639 < 1707589859
+2024-02-11 00:25:59 - firebase - INFO - Firebase stuff loaded
+2024-02-11 00:26:22 - firebase - ERROR - Token expired, 1707568639 < 1707591382
+2024-02-11 00:27:45 - firebase - INFO - Firebase stuff loaded
+2024-02-11 00:28:47 - firebase - ERROR - Token expired, 1707568639 < 1707591527
+2024-02-11 00:29:37 - firebase - ERROR - Token expired, 1707568639 < 1707591577
+2024-02-11 00:45:35 - firebase - ERROR - Token expired, 1707568639 < 1707592535
+2024-02-11 00:45:42 - firebase - ERROR - Token expired, 1707568639 < 1707592542
+2024-02-11 00:45:49 - firebase - ERROR - Token expired, 1707568639 < 1707592549
+2024-02-11 00:46:18 - firebase - ERROR - Token expired, 1707568639 < 1707592578
+2024-02-11 00:46:42 - firebase - ERROR - Token expired, 1707568639 < 1707592602
+2024-02-11 00:49:45 - firebase - ERROR - Token expired, 1707568639 < 1707592785
+2024-02-11 00:51:50 - firebase - ERROR - Token expired, 1707568639 < 1707592910
+2024-02-11 00:52:10 - firebase - ERROR - Token expired, 1707568639 < 1707592930
+2024-02-11 00:52:58 - firebase - ERROR - Token expired, 1707568639 < 1707592978
+2024-02-11 00:55:10 - firebase - ERROR - Token expired, 1707568639 < 1707593110
+2024-02-11 00:58:34 - firebase - ERROR - Token expired, 1707568639 < 1707593314
+2024-02-11 01:01:02 - firebase - ERROR - Token expired, 1707568639 < 1707593462
+2024-02-11 01:11:38 - firebase - ERROR - Token expired, 1707568639 < 1707594098
+2024-02-11 01:18:21 - firebase - ERROR - Token expired, 1707568639 < 1707594501
+2024-02-11 01:19:24 - firebase - ERROR - Token expired, 1707568639 < 1707594564
+2024-02-11 01:20:20 - firebase - ERROR - Token expired, 1707568639 < 1707594620
+2024-02-11 01:21:02 - firebase - ERROR - Token expired, 1707568639 < 1707594662
+2024-02-11 01:22:42 - firebase - ERROR - Token expired, 1707568639 < 1707594762
+2024-02-11 01:25:21 - firebase - ERROR - Token expired, 1707568639 < 1707594921
+2024-02-11 01:29:49 - firebase - ERROR - Token expired, 1707568639 < 1707595189
+2024-02-11 01:30:33 - firebase - ERROR - Token expired, 1707568639 < 1707595233
+2024-02-11 01:31:16 - firebase - ERROR - Token expired, 1707568639 < 1707595276
+2024-02-11 01:31:56 - firebase - ERROR - Token expired, 1707568639 < 1707595316
+2024-02-11 01:32:20 - firebase - ERROR - Token expired, 1707568639 < 1707595340
+2024-02-11 01:55:10 - firebase - ERROR - Token expired, 1707568639 < 1707596710
+2024-02-11 01:56:55 - firebase - ERROR - Token expired, 1707568639 < 1707596815
+2024-02-11 01:57:20 - firebase - ERROR - Token expired, 1707568639 < 1707596840
+2024-02-11 18:16:25 - firebase - INFO - Firebase stuff loaded
+2024-02-11 18:25:21 - firebase - ERROR - Token expired, 1707568639 < 1707656121
+2024-02-11 18:25:45 - firebase - ERROR - Token expired, 1707568639 < 1707656145
+2024-02-11 18:29:26 - firebase - INFO - Firebase stuff loaded
+2024-02-11 18:50:09 - firebase - INFO - Firebase stuff loaded
+2024-02-11 23:27:40 - firebase - INFO - Firebase stuff loaded
+2024-02-11 23:30:15 - firebase - INFO - Firebase stuff loaded
+2024-02-11 23:35:14 - firebase - INFO - Firebase stuff loaded
