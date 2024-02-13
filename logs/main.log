@@ -1,104 +1,87 @@
-2024-02-11 00:00:29 - main - INFO - IP logs cleared
-2024-02-11 00:00:29 - main - INFO - Scheduler started
-2024-02-11 00:00:47 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:00:51 - main - INFO - Request body: {'query': 'nigga ninja'}
-2024-02-11 00:25:59 - main - INFO - IP logs cleared
-2024-02-11 00:25:59 - main - INFO - Scheduler started
-2024-02-11 00:26:18 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:26:18 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:26:18 - main - INFO - Request body: {'query': 'safsd'}
-2024-02-11 00:27:45 - main - INFO - IP logs cleared
-2024-02-11 00:27:45 - main - INFO - Scheduler started
-2024-02-11 00:28:45 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:28:45 - main - INFO - Request body: {'query': ''}
-2024-02-11 00:29:37 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:29:37 - main - INFO - Request body: {'query': ''}
-2024-02-11 00:45:35 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:45:35 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:45:35 - main - INFO - Request body: {'query': 'sfasdf'}
-2024-02-11 00:45:42 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:45:42 - main - INFO - Request body: {'query': 'sdfasd'}
-2024-02-11 00:45:49 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:45:49 - main - INFO - Request body: {'query': ''}
-2024-02-11 00:46:18 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:46:18 - main - INFO - Request body: {'query': 'dfsdafa'}
-2024-02-11 00:46:42 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:46:42 - main - INFO - Request body: {'query': 'gg'}
-2024-02-11 00:49:45 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:49:45 - main - INFO - Request body: {'query': 'fasfda'}
-2024-02-11 00:51:50 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:51:50 - main - INFO - Request body: {'query': 'aeawefaew'}
-2024-02-11 00:52:10 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:52:10 - main - INFO - Request body: {'query': 'sfas'}
-2024-02-11 00:52:58 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:52:58 - main - INFO - Request body: {'query': 'asdfa'}
-2024-02-11 00:55:10 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:55:10 - main - INFO - Request body: {'query': 'sfsad'}
-2024-02-11 00:58:34 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:58:34 - main - INFO - Request received from 127.0.0.1
-2024-02-11 00:58:34 - main - INFO - Request body: {'query': ''}
-2024-02-11 01:01:02 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:01:02 - main - INFO - Request body: {'query': ''}
-2024-02-11 01:11:38 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:11:38 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:11:38 - main - INFO - Request body: {'query': 'newhghvhnv '}
-2024-02-11 01:18:21 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:18:21 - main - INFO - Request body: {'query': 'ghghfjhfgukgkiutg'}
-2024-02-11 01:19:24 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:19:24 - main - INFO - Request body: {'query': 'fgsdfgsdg'}
-2024-02-11 01:20:20 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:20:20 - main - INFO - Request body: {'query': 'test'}
-2024-02-11 01:21:02 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:21:02 - main - INFO - Request body: {'query': 'java'}
-2024-02-11 01:22:42 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:22:42 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:22:42 - main - INFO - Request body: {'query': 'ggfgf'}
-2024-02-11 01:25:21 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:25:21 - main - INFO - Request body: {'query': 'ffff'}
-2024-02-11 01:29:49 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:29:49 - main - INFO - Request body: {'query': 'cgcnvg'}
-2024-02-11 01:30:32 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:30:33 - main - INFO - Request body: {'query': 'gg'}
-2024-02-11 01:31:16 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:31:16 - main - INFO - Request body: {'query': 'test'}
-2024-02-11 01:31:56 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:31:56 - main - INFO - Request body: {'query': 'yo'}
-2024-02-11 01:32:20 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:32:20 - main - INFO - Request body: {'query': ''}
-2024-02-11 01:55:10 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:55:10 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:55:10 - main - INFO - Request body: {'query': 'test'}
-2024-02-11 01:56:55 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:56:55 - main - INFO - Request body: {'query': 'yo'}
-2024-02-11 01:57:20 - main - INFO - Request received from 127.0.0.1
-2024-02-11 01:57:20 - main - INFO - Request body: {'query': 'ko'}
-2024-02-11 18:16:25 - main - INFO - IP logs cleared
-2024-02-11 18:16:25 - main - INFO - Scheduler started
-2024-02-11 18:25:20 - main - INFO - Request received from 127.0.0.1
-2024-02-11 18:25:20 - main - INFO - Request received from 127.0.0.1
-2024-02-11 18:25:20 - main - INFO - Request body: {'query': 'Books with names'}
-2024-02-11 18:25:45 - main - INFO - Request received from 127.0.0.1
-2024-02-11 18:25:45 - main - INFO - Request body: {'query': 'get books'}
-2024-02-11 18:29:27 - main - INFO - IP logs cleared
-2024-02-11 18:29:27 - main - INFO - Scheduler started
-2024-02-11 18:50:09 - main - INFO - IP logs cleared
-2024-02-11 18:50:09 - main - INFO - Scheduler started
-2024-02-11 23:27:42 - main - INFO - IP logs cleared
-2024-02-11 23:27:42 - main - INFO - Scheduler started
-2024-02-11 23:28:23 - main - INFO - Request received from 127.0.0.1
-2024-02-11 23:28:23 - main - INFO - Request received from 127.0.0.1
-2024-02-11 23:28:23 - main - INFO - Request body: {'query': 'Books for fishing and data structures and algorithms in javascript '}
-2024-02-11 23:28:53 - main - INFO - Request received from 127.0.0.1
-2024-02-11 23:28:53 - main - INFO - Request body: {'query': 'books for fishing and karate'}
-2024-02-11 23:30:16 - main - INFO - IP logs cleared
-2024-02-11 23:30:16 - main - INFO - Scheduler started
-2024-02-11 23:30:21 - main - INFO - Request received from 127.0.0.1
-2024-02-11 23:30:21 - main - INFO - Request body: {'query': 'books for karate and writing code in javascript'}
-2024-02-11 23:31:36 - main - INFO - Request received from 127.0.0.1
-2024-02-11 23:31:36 - main - INFO - Request body: {'query': 'Looking for books with martial arts and building muscles '}
-2024-02-11 23:32:35 - main - INFO - Request received from 127.0.0.1
-2024-02-11 23:32:35 - main - INFO - Request body: {'query': 'Books with modern programming and skills'}
-2024-02-11 23:35:15 - main - INFO - IP logs cleared
-2024-02-11 23:35:15 - main - INFO - Scheduler started
-2024-02-11 23:35:39 - main - INFO - Request received from 127.0.0.1
-2024-02-11 23:35:39 - main - INFO - Request body: {'query': 'books for artificial inteligence and neural netorks '}
+2024-02-13 15:20:00 - main - INFO - IP logs cleared
+2024-02-13 15:20:00 - main - INFO - Scheduler started
+2024-02-13 15:20:14 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:20:14 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:20:14 - main - INFO - Request body: {'query': 'fsdfasdfsd'}
+2024-02-13 15:21:22 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:21:22 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:21:25 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:21:25 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:21:55 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:21:55 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:31:00 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:31:00 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:31:00 - main - INFO - Request body: {'query': 'ff'}
+2024-02-13 15:31:13 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:31:13 - main - INFO - Request body: {'query': 'ff'}
+2024-02-13 15:31:40 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:31:40 - main - INFO - Request body: {'query': 'ff'}
+2024-02-13 15:32:17 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:32:17 - main - INFO - Request body: {'query': 'ff'}
+2024-02-13 15:33:13 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:33:13 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:33:35 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:33:35 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:34:22 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:34:22 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:34:34 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:34:34 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:34:41 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:34:41 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:45:13 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:45:13 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:45:13 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:45:59 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:45:59 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:48:11 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:48:11 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:52:39 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:52:39 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:53:54 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:53:54 - main - INFO - Request body: {'query': ''}
+2024-02-13 15:55:33 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:55:33 - main - INFO - Request received from 127.0.0.1
+2024-02-13 15:55:33 - main - INFO - Request body: {'query': ''}
+2024-02-13 16:02:02 - main - INFO - Request received from 127.0.0.1
+2024-02-13 16:02:02 - main - INFO - Request body: {'query': ''}
+2024-02-13 16:02:12 - main - INFO - Request received from 127.0.0.1
+2024-02-13 16:02:12 - main - INFO - Request body: {'query': ''}
+2024-02-13 16:02:31 - main - INFO - Request received from 127.0.0.1
+2024-02-13 16:02:31 - main - INFO - Request body: {'query': ''}
+2024-02-13 16:02:59 - main - INFO - Request received from 127.0.0.1
+2024-02-13 16:02:59 - main - INFO - Request body: {'query': ''}
+2024-02-13 16:03:04 - main - INFO - Request received from 127.0.0.1
+2024-02-13 16:03:04 - main - INFO - Request body: {'query': ''}
+2024-02-13 16:14:27 - main - INFO - IP logs cleared
+2024-02-13 16:14:27 - main - INFO - Scheduler started
+2024-02-13 16:14:34 - main - INFO - Request received from 127.0.0.1
+2024-02-13 16:14:34 - main - INFO - Request received from 127.0.0.1
+2024-02-13 16:14:34 - main - INFO - Request body: {'query': 'Find book with music in it'}
+2024-02-13 17:21:22 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:21:22 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:21:22 - main - INFO - Request body: {'query': ''}
+2024-02-13 17:21:27 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:21:27 - main - INFO - Request body: {'query': ''}
+2024-02-13 17:23:26 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:23:26 - main - INFO - Request body: {'query': ''}
+2024-02-13 17:26:41 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:26:41 - main - INFO - Request body: {'query': 'Books with fast cars and bikes'}
+2024-02-13 17:27:25 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:27:25 - main - INFO - Request body: {'query': ''}
+2024-02-13 17:27:29 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:27:29 - main - INFO - Request body: {'query': ''}
+2024-02-13 17:29:11 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:29:11 - main - INFO - Request body: {'query': 'f'}
+2024-02-13 17:48:47 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:48:47 - main - INFO - Request received from 127.0.0.1
+2024-02-13 17:48:47 - main - INFO - Request body: {'query': 'fsfdasf'}
+2024-02-13 18:18:59 - main - INFO - Request received from 127.0.0.1
+2024-02-13 18:18:59 - main - INFO - Request received from 127.0.0.1
+2024-02-13 18:18:59 - main - INFO - Request body: {'query': 'Who is this post for ?'}
+2024-02-13 18:55:29 - main - INFO - IP logs cleared
+2024-02-13 18:55:29 - main - INFO - Scheduler started
+2024-02-13 18:56:05 - main - INFO - Request received from 127.0.0.1
+2024-02-13 18:56:05 - main - INFO - Request received from 127.0.0.1
+2024-02-13 18:56:05 - main - INFO - Request body: {'query': 'I am a programmer and i work for a financial instution '}
+2024-02-13 18:57:42 - main - INFO - Request received from 127.0.0.1
+2024-02-13 18:57:42 - main - INFO - Request body: {'query': "I'm a programmer and a work for a financial institution, I like to work with python and go and sometimes I go for fishing"}

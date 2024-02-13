@@ -1,40 +1,30 @@
-# Book Genie 
-API's for book genie 
-Python 3.11.7
+# Book Genie
+Backend API for [book-genie](https://github.com/gh0stfrk/BookGenie)
 
-# Featuers 
-- Rate limitting 
-- Allow more queries after signup with google
+## Setup 
+- Create a virtual environment in python 3.10 >
+```bash
+python3 -m venv venv
+```
+- Install all dependencies 
+```bash
+source ./venv/bin/activate
+pip install -r requirements.txt
+```
+- Execute the `main.py` file
+```bash
+python3 main.py
+```
 
+## Handling API credentials
+- There are two API credentials broadly, actually three
+- One is OPEN AI's API key, the other two are google service accounts, one for firebase backend, and the other to write logs to sheets
+- Create an .env file inside the `app` directory
+- Add an openai's api key inside it
+```
+OPENAI_API_KEY=<Your_key>
+```
+- create 2 service accounts or one whatever suits you, name them `creds.json` and `creds2.json` and drop them in `app` directory
 
-## More Features 
-- Integration to Google books 
-- Getting book reviews from goodreads
-- Adding affiliate links to kindle(ebook), amazon (hardcover), ebooks.com(ebook)
+- after this you are good to go.
 
-# Endpoints
-
-getbookRecommendations() POST
-Req ["query",auth_token|temp_user,]
-{
-    returns a list of books with required keys
-    {
-        "bookName",
-        "author",
-        "coverImg:optional",
-        "description",
-        "affiliate_link",
-    }
-}
-
-
-# Steps to return a bookRecommendations JSON obj
-
-- 1) Get the msg from the user to suggest books
-- 2) Get a list of books from OpenAi API
-- 3) Find affliate links to those books from ebooks.com
-- 4) Create a new object with all necessary items to dispay user books
-
-
-# Sample flow 
--
