@@ -85,3 +85,8 @@
 2024-02-13 18:56:05 - main - INFO - Request body: {'query': 'I am a programmer and i work for a financial instution '}
 2024-02-13 18:57:42 - main - INFO - Request received from 127.0.0.1
 2024-02-13 18:57:42 - main - INFO - Request body: {'query': "I'm a programmer and a work for a financial institution, I like to work with python and go and sometimes I go for fishing"}
+2024-02-13 19:17:22 - main - INFO - IP logs cleared
+2024-02-13 19:17:22 - main - INFO - Scheduler started
+2024-02-13 19:17:50 - main - INFO - Request received from 127.0.0.1
+2024-02-13 19:17:50 - main - INFO - Request received from 127.0.0.1
+2024-02-13 19:17:50 - main - INFO - Request body: {'query': 'Suggest books with drugs and drug dealer stories from mexico'}
