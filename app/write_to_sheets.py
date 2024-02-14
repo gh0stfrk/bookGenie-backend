@@ -4,6 +4,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 root_app_path = os.path.dirname(os.path.abspath(__file__))
+on_render_path = os.path.join("/etc/secrets", "creds.json")
 cred_file_path = os.path.join(root_app_path,'creds.json')
 
 
@@ -13,7 +14,7 @@ def append_values(_values):
   spreadsheet_id = "1u0sdq3P5voTJkz-cYZZbmBCvRALheV6RMkx9XErY8rM"
   range_name = "A1:B1"
   value_input_option = "RAW"
-  creds, _ = google.auth.load_credentials_from_file(cred_file_path)
+  creds, _ = google.auth.load_credentials_from_file(on_render_path)
   try:
     service = build("sheets", "v4", credentials=creds)
     values = _values

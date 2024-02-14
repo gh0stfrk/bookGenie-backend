@@ -16,6 +16,11 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+## Local Development 
+- Clone this repo
+- Follow the setup instructions
+- If you find any issues create a issue in this repository
+
 ## Handling API credentials
 - There are two API credentials broadly, actually three
 - One is OPEN AI's API key, the other two are google service accounts, one for firebase backend, and the other to write logs to sheets
