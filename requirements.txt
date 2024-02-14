@@ -18,7 +18,7 @@ google-api-python-client==2.115.0
 google-auth==2.26.2
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
-google-books-api-wrapper==1.0.3
+google-books-api-wrapper==1.0.5
 google-cloud-core==2.4.1
 google-cloud-firestore==2.14.0
 google-cloud-storage==2.14.0
