@@ -11,7 +11,8 @@ logger = logger_.create_logger()
 origins = [
     "http://localhost",
     "http://localhost:8080",
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://book-genie.vercel.app"
 ]
 
 
