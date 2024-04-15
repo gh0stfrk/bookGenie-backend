@@ -1,15 +1,15 @@
 import logging
 import json
 from fastapi import APIRouter, Depends, HTTPException, Request
-from app.database import IPLog, SessionLocal, get_db
 
-from ..models import UserQuery
+from ..models import UserQuery, FavouriteBook, AddedBook
 from ..get_books import getBooks    
-from ..utils import get_client_ip, restructure_books
+from ..utils import restructure_books
 from ..write_to_sheets import append_values
 from ..firebase_stuff import verify_token
 from ..log_manager import CreateLogger, Modules
-
+from .auth import get_user_from_token
+from ..database import add_book
 
 logger_ = CreateLogger(Modules.books)
 logger = logger_.create_logger()
@@ -18,45 +18,13 @@ router = APIRouter(
     prefix="/api/v1"
 )
 
-async def check_rate_limit(request: Request, session: SessionLocal = Depends(get_db)): # type: ignore
-    ip_address = get_client_ip(request) 
-    logger.log(logging.INFO, f"IP address: {ip_address}")
-
-    headers = request.headers
-    if headers.__contains__("IdToken"):
-        logger.log(logging.INFO, f"IdToken: {headers['IdToken']}")
-        fkey = headers["IdToken"]
-        verify_token(fkey)
-        return
-    
-    if headers.__contains__("Dummy"):
-        return
-    
-    ip_log = (
-        session.query(IPLog)
-        .filter_by(ip_address=ip_address)
-        .first()
-    )
-
-    if ip_log and ip_log.request_count >= 3:
-        raise HTTPException(status_code=429, detail="Rate limit exceeded")
-    
-    if not ip_log:
-        ip_log = IPLog(ip_address=ip_address, request_count=0)
-        session.add(ip_log)
-
-    ip_log.request_count = ip_log.request_count + 1
-
-    session.commit()
-
-
 
 @router.post("/books", tags=["books"])
 async def find_books(
     query: UserQuery,
-    request: Request,  
-    check_rate_limit = Depends(check_rate_limit)  
+    request: Request  
 ):
+    print(query)
     try:
         ## TODO : Remove before deployingd
         # Working with test request before deploying 
@@ -85,9 +53,16 @@ async def find_books(
         raise HTTPException(status_code=500, detail=f"Internal server error : {e}")
 
 @router.post("/favourite", tags=["books"])
-async def favourite_book():
+async def favourite_book(book: FavouriteBook, user_id: bool = Depends(get_user_from_token)):
     """
     Check for the auth token in the header if not return 401 else add the book to firestore
     with book details from google book api.
     """
-    return {"message": "Favourite book endpoint"}
+    print(book)
+    print(user_id)
+    if not book.status:
+        return {"message": "Removed from favourites"}
+    book_to_add = AddedBook(uid=user_id, isbn=book.isbn)
+    added_book = await add_book(book_to_add)
+    print(added_book)
+    return {"message": "Added to favourites"}

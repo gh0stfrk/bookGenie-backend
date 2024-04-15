@@ -1,17 +1,157 @@
-2024-02-13 15:19:59 - firebase - INFO - Firebase stuff loaded
-2024-02-13 15:20:14 - firebase - ERROR - Token expired, 1707763964 < 1707817814
-2024-02-13 15:21:22 - firebase - ERROR - Token expired, 1707763964 < 1707817882
-2024-02-13 15:21:25 - firebase - ERROR - Token expired, 1707763964 < 1707817885
-2024-02-13 15:21:55 - firebase - ERROR - Token expired, 1707763964 < 1707817915
-2024-02-13 15:31:00 - firebase - ERROR - Token expired, 1707763964 < 1707818460
-2024-02-13 15:31:13 - firebase - ERROR - Token expired, 1707763964 < 1707818473
-2024-02-13 15:31:40 - firebase - ERROR - Token expired, 1707763964 < 1707818500
-2024-02-13 15:32:17 - firebase - ERROR - Token expired, 1707763964 < 1707818537
-2024-02-13 15:33:13 - firebase - ERROR - Token expired, 1707763964 < 1707818593
-2024-02-13 15:33:35 - firebase - ERROR - Token expired, 1707763964 < 1707818615
-2024-02-13 15:34:22 - firebase - ERROR - Token expired, 1707763964 < 1707818662
-2024-02-13 15:34:34 - firebase - ERROR - Token expired, 1707763964 < 1707818674
-2024-02-13 15:34:41 - firebase - ERROR - Token expired, 1707763964 < 1707818681
-2024-02-13 16:14:27 - firebase - INFO - Firebase stuff loaded
-2024-02-13 18:55:28 - firebase - INFO - Firebase stuff loaded
-2024-02-13 19:17:21 - firebase - INFO - Firebase stuff loaded
+2024-04-15 07:17:18 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:16:52 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:18:15 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:20:48 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:21:06 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:21:17 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:21:26 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:21:36 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:47:00 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:48:13 - firebase - INFO - Firebase stuff loaded
+2024-04-15 13:55:21 - firebase - INFO - Firebase stuff loaded
+2024-04-15 14:04:03 - firebase - INFO - Firebase stuff loaded
+2024-04-15 14:04:08 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:05:45 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:06:40 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:08:40 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:09:40 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:13:09 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:14:21 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:15:59 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:20:56 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:21:06 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:21:13 - firebase - INFO - Firebase stuff loaded
+2024-04-15 15:21:32 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:25:39 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:38:31 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:42:02 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:42:38 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:43:01 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:50:06 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:50:10 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:56:10 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:56:38 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:57:18 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:57:48 - firebase - INFO - Firebase stuff loaded
+2024-04-15 20:58:10 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:00:00 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:00:38 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:00:43 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:00:58 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:02:04 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:02:04 - firebase - ERROR - Firebase ID token has incorrect "aud" (audience) claim. Expected "bookgenie-7e6e7" but got "376059395842-psls9b758so89fpderlo6gssec5husli.apps.googleusercontent.com". Make sure the ID token comes from the same Firebase project as the service account used to authenticate this SDK. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve ID token.
+2024-04-15 21:02:18 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:02:18 - firebase - ERROR - Firebase ID token has incorrect "aud" (audience) claim. Expected "bookgenie-7e6e7" but got "376059395842-psls9b758so89fpderlo6gssec5husli.apps.googleusercontent.com". Make sure the ID token comes from the same Firebase project as the service account used to authenticate this SDK. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve ID token.
+2024-04-15 21:09:04 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:09:06 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:09:20 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:10:41 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:15:59 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:16:28 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:16:32 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:16:36 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:16:41 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:50:28 - firebase - INFO - Firebase stuff loaded
+2024-04-15 21:50:29 - firebase - ERROR - Firebase ID token has incorrect "aud" (audience) claim. Expected "bookgenie-7e6e7" but got "376059395842-psls9b758so89fpderlo6gssec5husli.apps.googleusercontent.com". Make sure the ID token comes from the same Firebase project as the service account used to authenticate this SDK. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve ID token.
+2024-04-15 22:02:39 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-15 22:02:39 - firebase - INFO - Username: Salman Sayyed
+2024-04-15 22:02:39 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-15 22:02:39 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713198712, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713198718, 'exp': 1713202318, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-15 22:06:36 - firebase - INFO - Firebase stuff loaded
+2024-04-15 22:46:59 - firebase - INFO - Firebase stuff loaded
+2024-04-15 22:47:38 - firebase - INFO - Firebase stuff loaded
+2024-04-15 22:47:48 - firebase - INFO - Firebase stuff loaded
+2024-04-15 22:54:30 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-15 22:54:30 - firebase - INFO - Username: Salman Sayyed
+2024-04-15 22:54:30 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-15 22:54:30 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713201846, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713201846, 'exp': 1713205446, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-15 22:54:36 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-15 22:54:36 - firebase - INFO - Username: Salman Sayyed
+2024-04-15 22:54:36 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-15 22:54:36 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713201846, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713201846, 'exp': 1713205446, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-15 22:54:43 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-15 22:54:43 - firebase - INFO - Username: Salman Sayyed
+2024-04-15 22:54:43 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-15 22:54:43 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713201846, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713201846, 'exp': 1713205446, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-15 22:57:39 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-15 22:57:39 - firebase - INFO - Username: Salman Sayyed
+2024-04-15 22:57:39 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-15 22:57:39 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713201846, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713201846, 'exp': 1713205446, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 00:03:14 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 00:03:14 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 00:03:14 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 00:03:14 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713205969, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713205969, 'exp': 1713209569, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 00:03:17 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 00:03:17 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 00:03:18 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 00:03:18 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713205969, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713205969, 'exp': 1713209569, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 00:27:22 - firebase - INFO - Firebase stuff loaded
+2024-04-16 00:56:15 - firebase - INFO - Firebase stuff loaded
+2024-04-16 00:56:56 - firebase - INFO - Firebase stuff loaded
+2024-04-16 00:57:51 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:00:23 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:02:07 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:02:20 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:02:23 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:02:26 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:02:26 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:02:26 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:02:26 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713205969, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713205969, 'exp': 1713209569, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:02:36 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:02:36 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:02:36 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:02:36 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713205969, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713205969, 'exp': 1713209569, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:02:57 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:02:57 - firebase - ERROR - Token expired, 1713209569 < 1713209577
+2024-04-16 01:03:22 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:03:24 - firebase - ERROR - Token expired, 1713209569 < 1713209604
+2024-04-16 01:04:02 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:04:03 - firebase - ERROR - Token expired, 1713209569 < 1713209643
+2024-04-16 01:05:48 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:06:04 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:06:07 - firebase - ERROR - Token expired, 1713209569 < 1713209767
+2024-04-16 01:06:18 - firebase - ERROR - Token expired, 1713209569 < 1713209778
+2024-04-16 01:07:46 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:11:04 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:11:04 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:11:04 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:11:04 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:12:18 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:12:19 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:12:19 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:12:19 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:12:19 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:13:23 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:13:31 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:13:31 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:13:31 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:13:31 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:14:05 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:14:20 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:14:29 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:14:29 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:14:29 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:14:29 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:15:05 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:15:07 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:15:07 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:15:07 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:15:07 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:16:05 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:16:05 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:16:05 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:16:05 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:16:05 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:16:12 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:16:12 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:16:12 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:16:12 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:16:25 - firebase - INFO - Firebase stuff loaded
+2024-04-16 01:16:28 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:16:28 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:16:28 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:16:28 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}
+2024-04-16 01:16:30 - firebase - INFO - UID: J9FviNk1JMdMOHstuptPJ6HgVEW2
+2024-04-16 01:16:30 - firebase - INFO - Username: Salman Sayyed
+2024-04-16 01:16:30 - firebase - INFO - Email: salmansyyd12@gmail.com
+2024-04-16 01:16:30 - firebase - INFO - {'name': 'Salman Sayyed', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKG6mR5K5cw6ThH5U-7mtaFn95v9n9BTqtNwJWnGYYUBhQ=s96-c', 'iss': 'https://securetoken.google.com/bookgenie-7e6e7', 'aud': 'bookgenie-7e6e7', 'auth_time': 1713210050, 'user_id': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'sub': 'J9FviNk1JMdMOHstuptPJ6HgVEW2', 'iat': 1713210050, 'exp': 1713213650, 'email': 'salmansyyd12@gmail.com', 'email_verified': True, 'firebase': {'identities': {'google.com': ['101430894877220881577'], 'email': ['salmansyyd12@gmail.com']}, 'sign_in_provider': 'google.com'}, 'uid': 'J9FviNk1JMdMOHstuptPJ6HgVEW2'}

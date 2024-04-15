@@ -1,28 +1,33 @@
-import datetime
-from sqlalchemy import create_engine, Column, Integer, String, DateTime
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+import os
+import motor.motor_asyncio
+from dotenv import load_dotenv
+
+load_dotenv()
+
+passwd = os.getenv("MONGO_PASSWORD")
+user = os.getenv("MONGO_USER")
+
+MONGO_URL = f"mongodb+srv://{user}:{passwd}@cluster0.hlgdohp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URL)
+database = client.bookgenie
+fav_books = database.get_collection("fav_books")
 
 
-engine = create_engine("sqlite:///ip_logs.db")
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+def favourite_books_helper(book) -> dict:
+    return {
+        "id": str(book["_id"]),
+        "uid": book["uid"],
+        "isbn" : book["isbn"],
+    }
+    
+async def add_book(book_data: dict):
+    book = await fav_books.insert_one(book_data)
+    new_book = await fav_books.find_one({"_id": book.inserted_id})
+    return favourite_books_helper(new_book)
 
-Base = declarative_base()
-
-class IPLog(Base):
-    __tablename__ = "ip_logs"
-
-    id = Column(Integer, primary_key=True)
-    ip_address = Column(String, unique=True)
-    request_count = Column(Integer, default=0)
-    date = Column(DateTime, default=datetime.datetime.utcnow)
-
-Base.metadata.create_all(engine)  
-
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+async def get_favourite_books(user_id: str):
+    books = []
+    async for book in fav_books.find({"user": user_id}):
+        books.append(favourite_books_helper(book))
+    return books

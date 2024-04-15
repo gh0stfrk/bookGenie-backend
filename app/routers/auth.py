@@ -4,6 +4,7 @@ from ..firebase_stuff import verify_token
 
 from app.log_manager import CreateLogger, Modules
 import logging
+from fastapi import HTTPException
 
 router = APIRouter(
     prefix="/api/v1",
@@ -27,3 +28,11 @@ async def create_token(request: Request,
 
     logger.log(logging.INFO, f"Headers: {headers}")
     return  {"access_token": "fake-token"}
+
+async def get_user_from_token(authorization: Annotated[str | None, Header(...)] = None):
+    print(authorization)
+    if not authorization:
+        raise HTTPException(status_code=401, detail="Unauthorized", headers={"Authorization":"Token"})
+    token_status = verify_token(authorization)
+    user_id = token_status["user_id"]
+    return user_id

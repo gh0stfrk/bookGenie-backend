@@ -1,9 +1,7 @@
 from .routers import books, auth
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from .scheduler import scheduler
 from .log_manager import CreateLogger, Modules
-from .utils import clear_ip_logs
 
 logger_ = CreateLogger(Modules.main)
 logger = logger_.create_logger()
@@ -21,17 +19,11 @@ app.include_router(router=auth.router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-if clear_ip_logs():
-    logger.info("IP logs cleared")
-    
-scheduler.start()
-logger.info("Scheduler started")
 
 @app.middleware("http")
 async def modify_request(request: Request, call_next):
