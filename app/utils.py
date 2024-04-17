@@ -53,9 +53,15 @@ def get_books_by_isbn(books_dict: dict) -> [Book]:
     books = []
     client = GoogleBooksAPI()
     for book in books_dict:
-        google_books_search = client.search_book(isbn=book["isbn"]).get_best_match()
+        try:
+            google_books_search = client.search_book(isbn=book["isbn"]).get_best_match()
+        except Exception as e:
+            print(e)
+            continue
+        
         if not google_books_search:
             continue
+        
         books.append(
             Book(
                 book_name=google_books_search.title,
