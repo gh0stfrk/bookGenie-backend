@@ -62,7 +62,7 @@ def get_books_by_isbn(books_dict: dict) -> [Book]:
                 author_name=google_books_search.authors[0],
                 reason=google_books_search.description,
                 google_books_url=f"https://books.google.com/books?id={google_books_search.id}",
-                isbn=google_books_search.ISBN_13,
+                isbn=google_books_search.ISBN_13 if google_books_search.ISBN_13 else google_books_search.ISBN_10,
                 page_count=str(google_books_search.page_count),
                 categories=google_books_search.subjects,
                 cover_image=google_books_search.large_thumbnail if google_books_search.large_thumbnail else "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
