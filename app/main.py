@@ -24,14 +24,6 @@ app.add_middleware(
 )
 
 
-@app.middleware("http")
-async def modify_request(request: Request, call_next):
-    ip_addr = request.client.host
-    if await request.body():
-        logger.info(f"Request body: {await request.json()}\nIpAddr: {request.client}")
-    return await call_next(request)
-
-
 @app.get("/", tags=["informational"])
 async def root():
     return {
