@@ -1,12 +1,12 @@
 import os
 import firebase_admin
-from . import root_app_path
+from . import render_secret_path
 from firebase_admin import auth
 from firebase_admin import credentials
 from .log_manager import CreateLogger, Modules
 from fastapi import HTTPException
 
-cred_file = os.path.join(root_app_path, "creds.json")
+cred_file = os.path.join(render_secret_path, "creds.json")
 creds = credentials.Certificate(cred_file)
 
 default_app = firebase_admin.initialize_app(credential=creds)

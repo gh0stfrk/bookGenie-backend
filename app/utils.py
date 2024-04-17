@@ -4,12 +4,12 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from fastapi import Request
 from .models import Book
-from . import root_app_path
+from . import render_secret_path
 from google_books_api_wrapper.api import GoogleBooksAPI
 
 
 
-cred_file_path = os.path.join(root_app_path, 'creds.json')
+cred_file_path = os.path.join(render_secret_path, 'creds.json')
 
 
 def append_values(_values):
