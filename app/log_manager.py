@@ -37,10 +37,3 @@ class CreateLogger():
         handler.setFormatter(formatter)
         logger.addHandler(handler)
         return logger
-
-
-
-
-
-
-

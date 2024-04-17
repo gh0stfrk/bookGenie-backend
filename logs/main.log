@@ -291,3 +291,308 @@
 2024-04-16 01:16:28 - main - INFO - Request body: {'isbn': '9781451697117', 'status': False}
 2024-04-16 01:16:30 - main - INFO - Request received from 127.0.0.1
 2024-04-16 01:16:30 - main - INFO - Request body: {'isbn': '9781451697117', 'status': True}
+2024-04-16 12:20:35 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:21:59 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:21:59 - main - INFO - Request body: {'isbn': '12312313213', 'status': True}
+2024-04-16 12:22:09 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:22:09 - main - INFO - Request body: {'isbn': '12312313213', 'status': True}
+2024-04-16 12:23:25 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:23:25 - main - INFO - Request body: {'isbn': '12312313213', 'status': True}
+2024-04-16 12:24:41 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:24:41 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:24:41 - main - INFO - Request body: {'query': 'ff'}
+2024-04-16 12:24:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:24:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:24:49 - main - INFO - Request body: {'isbn': '9781505727562', 'status': True}
+2024-04-16 12:25:35 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:25:36 - main - INFO - Request body: {'isbn': '9780736092265', 'status': True}
+2024-04-16 12:26:03 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:26:03 - main - INFO - Request body: {'isbn': '9781440685378', 'status': True}
+2024-04-16 12:28:09 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:28:09 - main - INFO - Request body: {'query': 'ff'}
+2024-04-16 12:28:16 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:28:16 - main - INFO - Request body: {'isbn': '9781505727562', 'status': True}
+2024-04-16 12:32:39 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:32:39 - main - INFO - Request body: {'isbn': '9780736092265', 'status': True}
+2024-04-16 12:34:27 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:34:27 - main - INFO - Request body: {'isbn': '9781440685378', 'status': True}
+2024-04-16 12:39:03 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:39:03 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:39:03 - main - INFO - Request body: {'isbn': '9781476745534', 'status': True}
+2024-04-16 12:39:39 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:39:39 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:39:39 - main - INFO - Request body: {'query': 'ff'}
+2024-04-16 12:39:45 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:39:45 - main - INFO - Request body: {'isbn': '9781505727562', 'status': True}
+2024-04-16 12:42:19 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:42:19 - main - INFO - Request body: {'isbn': '9780736092265', 'status': True}
+2024-04-16 12:42:51 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:42:51 - main - INFO - Request body: {'isbn': '9781440685378', 'status': True}
+2024-04-16 12:42:56 - main - INFO - Request received from 127.0.0.1
+2024-04-16 12:42:56 - main - INFO - Request body: {'isbn': '9781451697117', 'status': True}
+2024-04-16 13:29:35 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:29:35 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:29:35 - main - INFO - Request body: {'query': 'loaded stuff with new fluff '}
+2024-04-16 13:29:46 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:29:46 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:29:46 - main - INFO - Request body: {'isbn': '9781440685378', 'status': True}
+2024-04-16 13:29:53 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:29:53 - main - INFO - Request body: {'isbn': '9781451697117', 'status': True}
+2024-04-16 13:45:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:45:50 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:46:01 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:46:25 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:46:52 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:49:58 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:57:22 - main - INFO - Request received from 127.0.0.1
+2024-04-16 13:57:58 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:01:23 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:01:29 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:03:19 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:03:52 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:04:22 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:05:08 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:05:34 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:09:32 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:10:01 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:11:06 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:19:58 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:20:06 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:20:12 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:20:40 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:20:53 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:20:58 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:21:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:21:34 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:21:38 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:22:13 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:22:57 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:23:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:23:37 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:23:53 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:06 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:10 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:14 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:17 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:21 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:25 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:29 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:33 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:36 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:40 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:44 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:24:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:25:28 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:26:11 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:27:37 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:04 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:10 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:16 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:43 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:46 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:50 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:54 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:34:59 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:11 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:15 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:19 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:23 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:27 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:31 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:35 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:39 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:42 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:46 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:50 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:54 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:35:57 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:01 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:05 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:09 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:12 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:16 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:20 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:23 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:27 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:31 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:34 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:38 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:41 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:46 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:53 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:36:56 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:00 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:03 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:07 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:11 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:15 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:18 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:22 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:26 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:34 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:38 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:41 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:45 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:53 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:37:56 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:38:00 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:38:04 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:24 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:28 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:32 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:36 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:41 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:45 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:53 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:40:56 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:41:00 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:58:03 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:58:55 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:59:11 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:59:23 - main - INFO - Request received from 127.0.0.1
+2024-04-16 14:59:42 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:00:04 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:00:25 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:03:13 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:03:19 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:12:58 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:14:09 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:14:14 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:15:58 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:15:58 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:15:58 - main - INFO - Request body: {'isbn': '9780736092265', 'status': False}
+2024-04-16 15:17:14 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:17:14 - main - INFO - Request body: {'isbn': '9781451697117', 'status': False}
+2024-04-16 15:18:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:18:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:18:30 - main - INFO - Request body: {'query': 'Good books with books books'}
+2024-04-16 15:19:01 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:19:01 - main - INFO - Request body: {'query': 'fsfsd'}
+2024-04-16 15:21:07 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:23:54 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:23:54 - main - INFO - Request body: {'query': 'This is the best application ever'}
+2024-04-16 15:25:14 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:26:44 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:27:48 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:28:44 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:29:04 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:29:09 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:29:45 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:29:52 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:30:03 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:30:12 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:35:14 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:35:14 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:35:14 - main - INFO - Request body: {'query': 'something'}
+2024-04-16 15:36:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:36:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:36:30 - main - INFO - Request body: {'isbn': '9781476745534', 'status': True}
+2024-04-16 15:36:42 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:39:31 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:39:31 - main - INFO - Request body: {'isbn': '9780736092265', 'status': False}
+2024-04-16 15:40:06 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:40:17 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:40:17 - main - INFO - Request body: {'isbn': '9780736092265', 'status': False}
+2024-04-16 15:40:32 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:40:45 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:40:45 - main - INFO - Request body: {'isbn': '9781451697117', 'status': False}
+2024-04-16 15:40:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:41:01 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:41:01 - main - INFO - Request body: {'isbn': '9781440685378', 'status': False}
+2024-04-16 15:41:08 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:58:36 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:59:39 - main - INFO - Request received from 127.0.0.1
+2024-04-16 15:59:55 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:03:49 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:04:05 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:07:19 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:08:08 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:13:16 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:13:16 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:13:16 - main - INFO - Request body: {'query': 'Finding nemo'}
+2024-04-16 16:13:26 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:13:26 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:13:26 - main - INFO - Request body: {'isbn': '9780982422755', 'status': True}
+2024-04-16 16:13:30 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:14:26 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:14:26 - main - INFO - Request body: {'query': 'gg'}
+2024-04-16 16:15:17 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:15:17 - main - INFO - Request body: {'isbn': '9780736092265', 'status': True}
+2024-04-16 16:15:20 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:15:56 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:16:54 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:18:01 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:18:01 - main - INFO - Request body: {'query': 'Animal old age big horns ancient'}
+2024-04-16 16:18:27 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:18:27 - main - INFO - Request body: {'isbn': '9781409069751', 'status': True}
+2024-04-16 16:18:33 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:18:33 - main - INFO - Request body: {'isbn': '9781408851210', 'status': True}
+2024-04-16 16:18:54 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:18:54 - main - INFO - Request body: {'query': 'Ancient war tactics and history about germany and german politics'}
+2024-04-16 16:19:24 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:19:24 - main - INFO - Request body: {'isbn': '9780674062313', 'status': True}
+2024-04-16 16:19:34 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:19:34 - main - INFO - Request body: {'isbn': '9780191563263', 'status': True}
+2024-04-16 16:19:38 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:21:02 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:21:02 - main - INFO - Request body: {'query': 'Juices and fruits'}
+2024-04-16 16:21:50 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:21:50 - main - INFO - Request body: {'query': "I'm a software engineer with specilization in backend development what books can i read ?"}
+2024-04-16 16:22:35 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:22:35 - main - INFO - Request body: {'isbn': '9780132931755', 'status': True}
+2024-04-16 16:23:16 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:24:19 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:24:19 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:24:19 - main - INFO - Request body: {'query': "I'm a UI designer suggest me books to read"}
+2024-04-16 16:24:56 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:24:56 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:24:56 - main - INFO - Request body: {'isbn': '9780123972873', 'status': True}
+2024-04-16 16:25:06 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:25:06 - main - INFO - Request body: {'isbn': '9780007518005', 'status': True}
+2024-04-16 16:49:39 - main - INFO - Request received from 127.0.0.1
+2024-04-16 16:54:10 - main - INFO - Request body: {'query': 'something with guns'}
+IpAddr: Address(host='127.0.0.1', port=47418)
+2024-04-16 16:55:23 - main - INFO - Request body: {'query': 'somehing with guns'}
+IpAddr: Address(host='127.0.0.1', port=53572)
+2024-04-16 16:56:16 - main - INFO - Request body: {'query': 'something with guns'}
+IpAddr: Address(host='127.0.0.1', port=52626)
+2024-04-16 16:58:41 - main - INFO - Request body: {'query': 'books with guns'}
+IpAddr: Address(host='127.0.0.1', port=50340)
+2024-04-16 16:59:57 - main - INFO - Request body: {'isbn': '9781446411254', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=47392)
+2024-04-17 15:16:12 - main - INFO - Request body: {'query': 'Suggest books with some razzle dazzle and spark'}
+IpAddr: Address(host='127.0.0.1', port=59750)
+2024-04-17 15:18:09 - main - INFO - Request body: {'query': 'Thriller stories based on detective genre like lupin'}
+IpAddr: Address(host='127.0.0.1', port=35730)
+2024-04-17 15:18:29 - main - INFO - Request body: {'isbn': '9781408704042', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=55476)
+2024-04-17 15:18:37 - main - INFO - Request body: {'isbn': '9781408704042', 'status': False}
+IpAddr: Address(host='127.0.0.1', port=46798)
+2024-04-17 15:18:48 - main - INFO - Request body: {'isbn': '9780297859406', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=36054)
+2024-04-17 15:29:42 - main - INFO - Request body: {'isbn': '9780736092265', 'status': False}
+IpAddr: Address(host='127.0.0.1', port=59026)
+2024-04-17 15:32:21 - main - INFO - Request body: {'query': "I'm a farmer what can i read that will benefit me"}
+IpAddr: Address(host='127.0.0.1', port=60892)
+2024-04-17 15:34:12 - main - INFO - Request body: {'isbn': '9780865717657', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=34198)
+2024-04-17 15:34:20 - main - INFO - Request body: {'isbn': '9781455505685', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=34198)
+2024-04-17 15:34:23 - main - INFO - Request body: {'isbn': '9781603585927', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=40914)
+2024-04-17 16:38:21 - main - INFO - Request body: {'query': 'fighting soldiers and dust map'}
+IpAddr: Address(host='127.0.0.1', port=32820)
+2024-04-17 16:41:36 - main - INFO - Request body: {'query': 'Find books with soilders and PTSD'}
+IpAddr: Address(host='127.0.0.1', port=33514)
+2024-04-17 16:41:59 - main - INFO - Request body: {'query': 'Find books with ptsd and soilders\n'}
+IpAddr: Address(host='127.0.0.1', port=35046)
+2024-04-17 16:43:19 - main - INFO - Request body: {'query': 'Find books with pTsd and soilders'}
+IpAddr: Address(host='127.0.0.1', port=50336)
+2024-04-17 16:43:56 - main - INFO - Request body: {'isbn': '9780802119926', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=33224)
+2024-04-17 16:44:11 - main - INFO - Request body: {'isbn': '9781497629202', 'status': True}
+IpAddr: Address(host='127.0.0.1', port=39716)

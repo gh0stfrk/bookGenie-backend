@@ -12,10 +12,8 @@ origins = [
     "http://localhost:5173"
 ]
 
-
 app = FastAPI()
 app.include_router(router=books.router)
-app.include_router(router=auth.router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -28,9 +26,8 @@ app.add_middleware(
 @app.middleware("http")
 async def modify_request(request: Request, call_next):
     ip_addr = request.client.host
-    logger.info(f"Request received from {ip_addr}")
     if await request.body():
-        logger.info(f"Request body: {await request.json()}")
+        logger.info(f"Request body: {await request.json()}\nIpAddr: {request.client}")
     return await call_next(request)
 
 

@@ -12,3 +12,5 @@ creds2.json
 # cache
 
 __pycache__/
+
+*.db

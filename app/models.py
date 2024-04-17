@@ -20,3 +20,8 @@ class Book(BaseModel):
 class FavouriteBook(BaseModel):
     isbn: str
     status: bool
+    
+    
+class UserModel(BaseModel):
+    name: str
+    picture: str
