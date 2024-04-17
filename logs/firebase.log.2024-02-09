@@ -1,6 +1,0 @@
-2024-02-09 10:36:30 - firebase - INFO - Firebase stuff loaded
-2024-02-09 11:29:28 - firebase - INFO - Firebase stuff loaded
-2024-02-09 11:44:48 - firebase - INFO - Firebase stuff loaded
-2024-02-09 11:45:28 - firebase - INFO - Firebase stuff loaded
-2024-02-09 11:46:35 - firebase - INFO - Firebase stuff loaded
-2024-02-09 11:46:49 - firebase - ERROR - Firebase ID token has incorrect "aud" (audience) claim. Expected "bookgenie-7e6e7" but got "376059395842-psls9b758so89fpderlo6gssec5husli.apps.googleusercontent.com". Make sure the ID token comes from the same Firebase project as the service account used to authenticate this SDK. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve ID token.

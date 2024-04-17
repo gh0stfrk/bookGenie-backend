@@ -2,7 +2,10 @@ from pydantic import BaseModel
 from typing import List
 class UserQuery(BaseModel):
     query: str
-   
+
+class AddedBook(BaseModel):
+    uid: str
+    isbn: str
 
 class Book(BaseModel):
     book_name : str
@@ -13,3 +16,12 @@ class Book(BaseModel):
     page_count : str 
     categories : List[str]
     cover_image : str
+
+class FavouriteBook(BaseModel):
+    isbn: str
+    status: bool
+    
+    
+class UserModel(BaseModel):
+    name: str
+    picture: str

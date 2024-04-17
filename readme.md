@@ -1,5 +1,5 @@
 # Book Genie
-Backend API for [book-genie](https://github.com/gh0stfrk/BookGenie)
+Backend API for [book-genie](https://github.com/gh0stfrk/BookGenie) the AI book recommendation application.
 
 ## Setup 
 - Create a virtual environment in python 3.10 >
@@ -21,15 +21,20 @@ python3 main.py
 - Follow the setup instructions
 - If you find any issues create a issue in this repository
 
-## Handling API credentials
+
+
+
+## API credentials
 - There are two API credentials broadly, actually three
 - One is OPEN AI's API key, the other two are google service accounts, one for firebase backend, and the other to write logs to sheets
 - Create an .env file inside the `app` directory
-- Add an openai's api key inside it
+- Add an openai's api key inside and add monogdb credentials
 ```
 OPENAI_API_KEY=<Your_key>
+MONGO_USER=<mongo_username>
+MONGO_PASSWORD=<mongo_password>
 ```
-- create 2 service accounts or one whatever suits you, name them `creds.json` and `creds2.json` and drop them in `app` directory
+- create 2 service accounts name them `creds.json` and `creds2.json` and drop them in `app` directory
 
 - after this you are good to go.
 
